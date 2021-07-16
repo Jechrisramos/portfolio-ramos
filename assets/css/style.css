@@ -46,9 +46,16 @@ h1, h2, h3, h4, h5, h6 {
 	color: var(--primary-color);
 }
 
-a {
+nav.a{
+	color: var(--light);
 	text-decoration: none;
 	transition: 0.18s;
+}
+
+nav.a:hover {
+	color: var(--dark-2);
+	text-decoration: none;
+	transition: 0.15s;
 }
 
 a.nav-link:focus-visible {
@@ -76,13 +83,25 @@ p.accent-dark {
 	letter-spacing: 2px;
 }
 
+p a {
+	color: var(--primary-color);
+	text-decoration: none;
+	transition: 0.18s;
+}
+
+p a:hover {
+	color: var(--secondary-color);
+	text-decoration: none;
+	transition: 0.15s;
+}
+
 div.container {
 	max-width: 1300px;
 }
 
 /*content-css*/
 main {
-	padding: 120px 20px;
+	padding: 150px 20px;
 	position: relative;
 	z-index: 2;
 }
@@ -116,6 +135,32 @@ section.right-content {
 }
 /*END OF CONTENT STYLING*/
 
+/*Buttons*/
+a#custom-button	{
+	display: block;
+	width: 220px;
+	background-color: var(--secondary-color);
+	margin: 20px 0;
+	padding: 8px 25px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: var(--primary-font);
+	color: var(--light) !important;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 2px;
+	outline: none;
+	transition: 0.18s;
+}
+
+a#custom-button:hover{
+	background-color: var(--primary-color)!important;
+	color: var(--light) !important;
+	transition: 0.22s;
+}
+/*end of Buttons*/
+
 /*HEADINGS STYLING*/
 h1.h1-heading {
 	color: var(--dark-1);
@@ -141,6 +186,10 @@ h2.h2-heading{
 	letter-spacing: 2px;
 }
 
+h3.h3-heading{
+	font-size: 35px;
+	letter-spacing: 1px;
+}
 /*end of HEADINGS STYLING*/
 
 /*end of content-css*/
@@ -356,12 +405,14 @@ div#footer-info-row {
 section#footer-soc-meds ul#soc-meds{
 	display: flex;
 	justify-content: flex-end;
+	margin-right: 0;
 }
 
 section#footer-soc-meds ul#soc-meds li a {
 	font-size: 25px;
 	color: var(--light);
 	transition: 0.15s;
+	padding: 5px 20px;
 }
 
 section#footer-soc-meds ul#soc-meds li a#footer-last-soc-med{
@@ -383,7 +434,7 @@ ul#footerNav li a {
 	letter-spacing: 2px;
 	transition: 0.18s;
 	font-size: 14px;
-	font-weight: 1;
+	font-weight: 400;
 }
 
 ul#footerNav li a:hover {
@@ -391,17 +442,20 @@ ul#footerNav li a:hover {
 	transition: 0.22s;
 }
 
-ul#footerNav li a#footer-nav-first {
-	padding-left: 0;
-}
-
 p#copywriting {
 	font-size: 14px;
 	font-family: var(--accent-2);
 	color: #FAC58E;
-	text-align: right;
 	line-height: 1;
 	margin: 8px 0 0 0;
+}
+
+p#all-reserved {
+	font-size: 14px;
+	text-align: right;
+	color: #FAC58E;
+	line-height: 1;
+	margin: 3px 0 0 0;
 }
 /*end of Internal Footer*/
 /*end of Footer*/
@@ -499,6 +553,14 @@ ul#soc-meds > li > a:hover {
 /*end of Home Page*/
 
 /*About Page*/
+main#first-content-row{
+	padding-top: 40px;
+}
+
+main#last-content-row{
+	padding-bottom: 30px;
+}
+
 main.h1-row-content,
 main.dim-white-bg-content {
 	background-color: #f9f9f9;
@@ -523,4 +585,57 @@ main.background-main:after {
 	bottom: 0;
 	left: 0;
 }
+
+p#skills-tools-description {
+	padding-bottom: 25px;
+}
+
+p#skills-tools-description, 
+div.tools-group{
+	display: block;
+	width: 55%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*Progress Bar*/
+section.progress-group {
+	padding: 0 20px;
+}
+
+div.progress-section{
+	padding-bottom: 10px;
+}
+
+p.progress-label {
+	font-family: var(--heading-font);
+	font-size: 21px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.progress {
+	height: 30px !important;
+	border-radius: 0 !important;
+}
+.progress-bar {
+	background: linear-gradient(-120deg, hsla(20, 100%, 48%, 1) 0%, hsla(38, 100%, 48%, 1) 100%) !important;
+}
+
+.progress-bar span {
+	font-size: 18px;
+	text-align: right;
+	padding: 10px 7px;
+}
+
+div.tools-group {
+	padding-top: 20px;
+}
+
+img.tools {
+	width: 60px;
+	height: 60px;
+	object-fit: contain;
+	object-position: center;
+}
+/*end of Progress Bar*/
 /*end of About Page*/

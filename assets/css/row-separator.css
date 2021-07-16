@@ -18,7 +18,7 @@
 }
 
 .custom-shape-divider-top-1625999087 .shape-fill {
-    fill: #FEFEFE;
+    fill: #f9f9f9;
 }
 
 /*bottom*/
@@ -45,3 +45,63 @@
     fill: #f9f9f9;
 }
 /*END OF ROW SEPARATOR*/
+
+/*CUSTOM ROW SEPARATOR*/
+div.technologies-left,
+div.technologies-right{
+    position: relative;
+    z-index: 11;
+    margin: -75px 0;
+}
+
+section.left-technologies-box{
+    border-top: 150px solid var(--secondary-color);
+    border-right: 50px solid transparent;
+    height: 80px;
+    position: relative;
+    left: 0%;
+}
+ul.left-list-technologies{
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    left: 265px;
+    bottom: 35px;
+}
+ul.left-list-technologies li{
+    display: inline-block;
+    margin: 0 15px;
+    padding: 5px;
+    font-size: 50px;
+    border-radius: 100%;
+    width: 90px;
+    text-align: center;
+    color: #faa980;
+}
+
+section.right-technologies-box{
+    border-bottom: 150px solid var(--secondary-color);
+    border-left: 50px solid transparent;
+    height: 80px;
+    position: relative;
+}
+ul.right-list-technologies{
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 35px;
+    left: 240px;
+}
+ul.right-list-technologies li{
+    display: inline-block;
+    margin: 0 15px;
+    padding: 5px;
+    font-size: 50px;
+    border-radius: 100%;
+    width: 90px;
+    text-align: center;
+    color: #faa980;
+}
+/*END OF CUSTOM ROW SEPARATOR*/

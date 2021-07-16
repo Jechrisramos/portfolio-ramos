@@ -221,12 +221,22 @@
 		padding-left: 30px;
 		padding-right: 30px;
 	}
+	ul#footerNav li a{
+		padding: 7px;
+	}
+
+	section#footer-soc-meds ul#soc-meds li a {
+		font-size: 20px;
+		padding: 7px 10px;
+	}
 	/*end of internal page footer*/
 
 	/*end of Footer*/
 
 	/*Row Separator*/
 	/*top*/
+	.custom-shape-divider-top-1625999087 { top:-1px; }
+
 	.custom-shape-divider-top-1625999087 svg {
 		height: 75px;
 	}
@@ -235,16 +245,32 @@
 	.custom-shape-divider-bottom-1625841102 svg {
 		height: 90px;
 	}
+
+	section.left-technologies-box {
+		margin-right: 50px;
+	}
+
+	section.right-technologies-box {
+		margin-left: 50px;
+	}
 	/*end of separator*/
 
 	/*content styling*/
 	main {
-		padding: 30px 20px;
+		padding: 120px 20px;
 	}
 	section.right-content,
 	section.left-content {
 	    padding: 0 20px;
 	}
+
+	/*Buttons*/
+	a#custom-button	{
+		width: 200px;
+		margin: 20px 0;
+		font-size: 18px;
+	}
+	/*end of Buttons*/
 	/*end of content styling*/
 
 	/*end of Sitewide*/
@@ -321,6 +347,11 @@
 	div#internal-hero-headline h2 {
 		font-size: 140px;
 		bottom: -22px;
+	}
+
+	p#skills-tools-description,
+	div.tools-group{
+		width: 100%;
 	}
 	/*end of About Pages*/
 	/*end of Pages*/	
@@ -453,11 +484,27 @@
 	.custom-shape-divider-bottom-1625841102 svg {
 		height: 70px;
 	}
+	div.technologies-left, 
+	div.technologies-right {
+		margin: -40px 0;
+	}
+
+	section.left-technologies-box {
+		border-top: 80px solid var(--secondary-color);
+		height: 40px;
+		margin-right: 50px;
+	}
+
+	section.right-technologies-box {
+		border-bottom: 80px solid var(--secondary-color);
+		height: 40px;
+		margin-left: 50px;
+	}
 	/*end of separator*/
 
 	/*content styling*/
 	main {
-		padding: 30px 20px;
+		padding: 70px 20px;
 	}
 	section.right-content,
 	section.left-content {
@@ -472,6 +519,14 @@
 		border: 5px solid var(--primary-color);
 	}
 	/*END OF IMAGE STYLING*/
+
+	/*Buttons*/
+	a#custom-button	{
+		width: 200px;
+		margin: 20px 0;
+		font-size: 18px;
+	}
+	/*end of Buttons*/
 
 	/*HEADINGS STYLING*/
 	h1.h1-heading {
@@ -493,6 +548,10 @@
 
 	h2.h2-heading {
 		font-size: 35px;
+	}
+
+	h3.h3-heading {
+		font-size: 27px;
 	}
 	/*end of HEADINGS STYLING*/
 	/*end of content styling*/
@@ -576,6 +635,21 @@
 		font-size: 23px;
 		bottom: -20px;
 	}
+
+	p#skills-tools-description,
+	div.tools-group{
+		width: 100%;
+	}
+
+	/*Progress Section*/
+	section.progress-group {
+		padding: 10px 0 0;
+	}
+
+	.progress-bar span {
+		font-size: 16px;
+	}
+	/*end of Progress Section*/
 	/*end of About Pages*/
 	/*end of Pages*/	
 } /*End of Mobile*/
