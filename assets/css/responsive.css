@@ -4,6 +4,10 @@
 	/*Sitewide*/
 
 	/*Header*/
+	header {
+		min-height: 100vh;
+	}
+
 	input#nav-toggle,
 	label.nav-toggle-label {
 		display: none;
@@ -83,6 +87,10 @@
 	/*Sitewide*/
 
 	/*Header*/
+	header {
+		min-height: 100vh;
+	}
+
 	nav.navbar {
 	    width: 100%;
 	    display: flex;
@@ -161,6 +169,7 @@
 
 	/*Header*/
 	header {
+		min-height: 100vh;
 		padding-top: 20px;
 	}
 
@@ -265,10 +274,10 @@
 	}
 
 	/*Buttons*/
-	a#custom-button	{
-		width: 200px;
+	a.custom-button	{
+		min-width: 200px;
 		margin: 20px 0;
-		font-size: 18px;
+		font-size: 15px !important;
 	}
 	/*end of Buttons*/
 	/*end of content styling*/
@@ -354,6 +363,43 @@
 		width: 100%;
 	}
 	/*end of About Pages*/
+
+	/*WORKS PAGE*/
+	h2#project-heading{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	div#nav-tab,
+	div.tab-pane-content {
+	    margin: 0 20px;
+	}
+
+	div.tab-pane-content {
+		padding: 40px 20px;
+	}
+
+	img.project-imgs {
+		width: 200px;
+		margin-bottom: 20px;
+	}
+
+	div.tab-pane-content a.custom-button {
+		width: 270px;
+	}
+
+	div.project-tools {
+		margin-left: 0px !important;
+	}
+	/*miscallenous projects*/
+	div.project-misc-imgs{
+		margin-top: 10px;
+	}
+	img.misc-projects {
+		width: 285px;
+	}
+	/*end of miscallenous projects*/
+	/*END OF WORKS PAGE*/
 	/*end of Pages*/	
 } /*End of Tablet*/
 
@@ -521,10 +567,10 @@
 	/*END OF IMAGE STYLING*/
 
 	/*Buttons*/
-	a#custom-button	{
-		width: 200px;
+	a.custom-button	{
+		min-width: 200px;
 		margin: 20px 0;
-		font-size: 18px;
+		font-size: 15px;
 	}
 	/*end of Buttons*/
 
@@ -651,5 +697,60 @@
 	}
 	/*end of Progress Section*/
 	/*end of About Pages*/
+
+	/*WORKS PAGE*/
+	h2#project-heading{
+		text-align: center;
+	}
+
+	div.nav-tabs a {
+		font-size: 17px;
+	}
+
+	div.tab-pane-content {
+		padding: 40px 20px;
+	}
+
+	img.project-imgs {
+		width: 160px;
+		margin-bottom: 20px;
+	}
+
+	div.tab-pane-content a.custom-button {
+		font-size: 17px;
+		width: 250px;
+		margin: 20px auto;
+		text-align: center;
+	}
+
+	div.tab-pane-content h2 {
+		font-size: 30px;
+	}
+
+	div.tab-pane-content h2,
+	div.tab-pane-content h3  {
+		text-align: center;
+	}
+
+	div.project-tools {
+		/*margin-left: 0px !important;*/
+		justify-content: center;
+	}
+
+	/*miscallenous projects*/
+	div.project-misc-imgs{
+		margin-top: 10px;
+	}
+	img.misc-projects {
+		width: 225px;
+	}
+	/*end of miscallenous projects*/
+	/*END OF WORKS PAGE*/
+
+	/*ABOUT PAGE*/
+	form {
+		margin-top: 20px;
+	}
+	/*END OF ABOUT PAGE*/
 	/*end of Pages*/	
 } /*End of Mobile*/

@@ -63,7 +63,7 @@ a.nav-link:focus-visible {
     color: var(--dark);
 }
 
-p {
+p, li {
 	font-size: 17px;
 }
 
@@ -135,10 +135,35 @@ section.right-content {
 }
 /*END OF CONTENT STYLING*/
 
+form {
+    background-color: #fff;
+    padding: 27px 10px 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-control,
+.form-control:focus{
+	font-size: 15px;
+	border-radius: 0 !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.form-control:focus {
+	border: 1px solid var(--primary-color) !important;
+}
+
+textarea.form-control {
+	height: 120px !important;
+	resize: none;
+}
+
 /*Buttons*/
-a#custom-button	{
+a.custom-button,
+button.custom-button	{
 	display: block;
-	width: 220px;
+	max-width: 265px;
 	background-color: var(--secondary-color);
 	margin: 20px 0;
 	padding: 8px 25px;
@@ -148,16 +173,20 @@ a#custom-button	{
 	font-family: var(--primary-font);
 	color: var(--light) !important;
 	font-weight: 400;
-	font-size: 20px;
-	letter-spacing: 2px;
+	font-size: 15px;
+	border: 0;
+	letter-spacing: 1px;
 	outline: none;
 	transition: 0.18s;
 }
 
-a#custom-button:hover{
+a.custom-button:hover,
+button.custom-button:hover {
 	background-color: var(--primary-color)!important;
 	color: var(--light) !important;
 	transition: 0.22s;
+	border: 0;
+	text-decoration: none;
 }
 /*end of Buttons*/
 
@@ -196,7 +225,7 @@ h3.h3-heading{
 
 /*Header*/
 header {
-	min-height: 100vh;
+	min-height: 104vh;
 	background-color: var(--dark-1);
 	background-image: url('../images/backgrounds/hero-1.jpg');
 	padding: 38px 0 0 0;
@@ -313,6 +342,10 @@ div.navbar-nav a#email-address:hover {
 /*active*/
 div.navbar-nav a.active {
 	color: var(--dark);
+}
+
+a.active {
+	color: var(--dark) !important;
 }
 /*end of active*/
 /*end of menu*/
@@ -473,7 +506,7 @@ div#hero-headline{
 img#hero-object{
 	float: right;
 	position: relative;
-	top: 8px;
+	top: 13px;
     left: 40px;
 }
 
@@ -639,3 +672,76 @@ img.tools {
 }
 /*end of Progress Bar*/
 /*end of About Page*/
+
+/*Works Page*/
+/*tab panels*/
+
+h2#project-heading{
+	text-align: right;
+}
+
+div.nav-tabs a {
+	font-size: 20px;
+	background-color: #f9f9f9;
+	color: var(--secondary-color);
+}
+div.nav-tabs .nav-item.show .nav-link, 
+div.nav-tabs .nav-link.active {
+	color: var(--light) !important;
+    background-color: var(--secondary-color);
+}
+
+div.tab-pane-content{
+	min-height: 50vh;
+	background-color: #fafafa;
+	margin: 0 1px;
+	padding: 20px;
+	border-left: 1px solid #dee2e6;
+	border-right: 1px solid #dee2e6;
+	border-bottom: 1px solid #dee2e6;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.tab-pane-content a.custom-button{
+	width: 225px;
+	font-size: 16px;
+}
+
+div.tab-pane-content h3{
+	color: var(--dark-1);
+}
+
+img.project-imgs {
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+/*miscallenous projects*/
+img.misc-projects {
+	width: 250px;
+	height: 150px;
+	margin: 10px;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*end of miscallenous projects*/
+
+/*end of tab panels*/
+/*end of Works Page*/
+/*ABOUT PAGE*/
+iframe#gmap_canvas {
+	width: 100%;
+	height: 200px;
+}
+
+form ul#soc-meds li a {
+	color: var(--primary-color);
+}
+
+form ul#soc-meds li a:hover {
+	color: var(--secondary-color);
+}
+/*END OF ABOUT PAGE*/
