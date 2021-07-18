@@ -225,10 +225,10 @@ h3.h3-heading{
 
 /*Header*/
 header {
-	min-height: 104vh;
+	min-height: 100vh;
 	background-color: var(--dark-1);
 	background-image: url('../images/backgrounds/hero-1.jpg');
-	padding: 38px 0 0 0;
+	padding: 20px 0 0 0;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom;
@@ -499,14 +499,14 @@ p#all-reserved {
 
 /*Home Page*/
 div#hero-headline{
-	margin-bottom: 100px;
+	margin-bottom: 150px;
 	position: relative;
 }
 
 img#hero-object{
 	float: right;
 	position: relative;
-	top: 3px;
+	/*top: 3px;*/
     left: 40px;
 }
 
@@ -520,23 +520,26 @@ h1#hero-heading span.primary-heading {
 	margin-top: 15px;
 	font-size: 43px;
 	line-height: 37px;
+	padding-bottom: 10px;
 }
 
 h1#hero-heading span.secondary-heading{
-	font-size: 62.50px;
+	font-size: 110px;
 	font-weight: 600;
 	line-height: 100px;
+	margin-left: -5px;
+	margin-bottom: 15px;
 }
 
 p#hero-description {
-	width: 84.75vh;
+	/*width: 84.75vh;*/
 	color: var(--light);
 	font-size: 20px;
 	margin-bottom: 20px;
 }
 
 div#cta-row {
-	width: 83.75vh;
+	/*width: 83.75vh;*/
 	margin: 10px 0 25px 0;
 }
 
@@ -617,6 +620,11 @@ main.background-main:after {
 	right: 0;
 	bottom: 0;
 	left: 0;
+}
+
+img.avatar {
+    margin-bottom: -150px;
+    width: 410px;
 }
 
 p#skills-tools-description {

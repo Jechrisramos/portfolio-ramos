@@ -36,6 +36,9 @@
 
 	/*Pages*/
 	/*Home Pages*/
+	div#hero-headline {
+	    margin-bottom: 100px;
+	}
 
 	p.accent {
 		font-size: 20px;
@@ -65,7 +68,7 @@
 	}
 
 	img#hero-object{
-		width: 403px;
+		width: 451px;
 		height: auto;
 		object-fit: contain;
 		top: 0;
@@ -78,6 +81,10 @@
 	/*end of Home Pages*/
 
 	/*About Pages*/
+	img.avatar {
+	    margin-bottom: -150px;
+	    width: 310px;
+	}
 	/*end of About Pages*/
 	/*end of Pages*/
 } /*End of Laptop*/
@@ -150,15 +157,21 @@
 	/*Home Pages*/
 	div#hero-headline{
 		padding-left: 35px;
+		margin-bottom: 100px;
 	}
 
 	img#hero-object{
-		width: 434px;
+		width: 485px;
 		top: 1px;
 	}
 	/*end of Home Pages*/
 
 	/*About Pages*/
+	img.avatar {
+	    margin-bottom: -150px;
+	    width: 321px;
+	}
+
 	/*end of About Pages*/
 	/*end of Pages*/	
 } /*End of Landscape*/
@@ -361,6 +374,11 @@
 	p#skills-tools-description,
 	div.tools-group{
 		width: 100%;
+	}
+
+	img.avatar {
+	    width: 232px;
+	    margin: 0 auto;
 	}
 	/*end of About Pages*/
 
@@ -696,6 +714,11 @@
 		font-size: 16px;
 	}
 	/*end of Progress Section*/
+
+	img.avatar {
+	    width: 205px;
+	    margin: 0 auto;
+	}
 	/*end of About Pages*/
 
 	/*WORKS PAGE*/
