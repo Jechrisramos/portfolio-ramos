@@ -506,7 +506,7 @@ div#hero-headline{
 img#hero-object{
 	float: right;
 	position: relative;
-	top: 13px;
+	top: 3px;
     left: 40px;
 }
 
@@ -675,7 +675,6 @@ img.tools {
 
 /*Works Page*/
 /*tab panels*/
-
 h2#project-heading{
 	text-align: right;
 }
@@ -731,7 +730,11 @@ img.misc-projects {
 
 /*end of tab panels*/
 /*end of Works Page*/
-/*ABOUT PAGE*/
+/*CONTACT PAGE*/
+main#contact-page-content {
+	padding: 30px 20px;
+}
+
 iframe#gmap_canvas {
 	width: 100%;
 	height: 200px;
@@ -744,4 +747,4 @@ form ul#soc-meds li a {
 form ul#soc-meds li a:hover {
 	color: var(--secondary-color);
 }
-/*END OF ABOUT PAGE*/
+/*END OF CONTACT PAGE*/

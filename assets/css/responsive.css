@@ -65,7 +65,7 @@
 	}
 
 	img#hero-object{
-		width: 364px;
+		width: 403px;
 		height: auto;
 		object-fit: contain;
 		top: 0;
@@ -153,7 +153,7 @@
 	}
 
 	img#hero-object{
-		width: 392px;
+		width: 434px;
 		top: 1px;
 	}
 	/*end of Home Pages*/
@@ -343,7 +343,7 @@
 		float: none;
 		top: auto;
 		left: auto;
-		width: 250px;
+		width: 304px;
 		height: auto;
 		object-fit: contain;
 		display: block;
