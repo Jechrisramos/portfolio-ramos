@@ -86,11 +86,17 @@
 	    width: 310px;
 	}
 	/*end of About Pages*/
+
+	/*Contact*/
+	main#contact-page-content .right-content {
+		padding-right: 40px;
+	}
+	/*end of Contact*/
 	/*end of Pages*/
 } /*End of Laptop*/
 
-/*Landscape*/
-@media only screen and (max-width: 1280px) and (min-width: 769px) {
+/*Laptop 2*/
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
 	/*Sitewide*/
 
 	/*Header*/
@@ -174,7 +180,76 @@
 
 	/*end of About Pages*/
 	/*end of Pages*/	
-} /*End of Landscape*/
+} /*End of laptop*/
+
+/*Landscape*/
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+	p {
+		font-size: 15px;
+	}
+
+	h2.h2-heading {
+	    font-size: 40px;
+	}
+
+	img.content-img {
+		width: 380px;
+		height: 380px;
+	}
+
+	div#footer-info-row {
+		padding-top: 40px;
+	}
+
+	#footerNav li.nav-item {
+	    width: 65px;
+	}
+
+	/*Home*/
+	nav.navbar,
+	div#hero-headline {
+		padding-left: 25px;
+	}
+
+	div#footer-copy p {
+		padding-left: 9px;
+	}
+
+	h1#hero-heading span.secondary-heading {
+		font-size: 65px;
+		line-height: 1;
+	}
+	p#hero-description {
+		font-size: 16px;
+	}
+
+	p#hero-description,
+	div#cta-row {
+		width: 500px;
+	}
+
+	img#hero-object {
+	    left: 10px;
+	    width: 505px;
+	}
+	/*end of Home*/
+
+	/*About*/
+	/*end of About*/
+
+	/*Work*/
+	img.misc-projects {
+	    width: 200px;
+	    height: 130px;
+	}
+	/*end of Work*/
+
+	/*Contact*/
+	main#contact-page-content .right-content {
+		padding-right: 30px;
+	}
+	/*end of Contact*/
+}/*end of Landscape*/
 
 /*Tablet*/
 @media only screen and (max-width: 768px) and (min-width: 481px) {
@@ -308,9 +383,11 @@
 	}
 
 	h1#hero-heading{text-align: center;}
+
 	h1#hero-heading span.primary-heading{
 		margin-top: 0;
 	    font-size: 35px;
+	    padding-bottom: 0;
 	}
 
 	h1#hero-heading span.secondary-heading{
@@ -397,6 +474,10 @@
 		padding: 40px 20px;
 	}
 
+	p.project-date {
+		font-size: 14px;
+	}
+
 	img.project-imgs {
 		width: 200px;
 		margin-bottom: 20px;
@@ -418,6 +499,18 @@
 	}
 	/*end of miscallenous projects*/
 	/*END OF WORKS PAGE*/
+
+	/*CONTACT PAGE*/
+	/*Contact*/
+	main#contact-page-content .right-content {
+		padding-right: 0;
+	}
+	/*end of Contact*/
+
+	form {
+		margin: 20px 5px !important;
+	}
+	/*END OF CONTACT PAGE*/
 	/*end of Pages*/	
 } /*End of Tablet*/
 
@@ -636,6 +729,7 @@
 	h1#hero-heading span.primary-heading{
 		margin: 0;
 	    font-size: 25px;
+	    padding-bottom: 0;
 	}
 
 	h1#hero-heading span.secondary-heading{
@@ -755,6 +849,10 @@
 		text-align: center;
 	}
 
+	p.project-date {
+		font-size: 14px;
+	}
+
 	div.project-tools {
 		/*margin-left: 0px !important;*/
 		justify-content: center;
@@ -770,10 +868,16 @@
 	/*end of miscallenous projects*/
 	/*END OF WORKS PAGE*/
 
-	/*ABOUT PAGE*/
+	/*CONTACT PAGE*/
+	/*Contact*/
+	main#contact-page-content .right-content {
+		padding-right: 0;
+	}
+	/*end of Contact*/
+
 	form {
 		margin-top: 20px;
 	}
-	/*END OF ABOUT PAGE*/
+	/*END OF CONTACT PAGE*/
 	/*end of Pages*/	
 } /*End of Mobile*/
