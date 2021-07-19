@@ -533,7 +533,6 @@ h1#hero-heading span.secondary-heading{
 }
 
 p#hero-description {
-	/*width: 84.75vh;*/
 	color: var(--light);
 	font-size: 20px;
 	margin-bottom: 20px;
@@ -678,6 +677,10 @@ img.tools {
 	height: 60px;
 	object-fit: contain;
 	object-position: center;
+}
+
+div.tools-group a.custom-button {
+	margin: 20px auto;
 }
 /*end of Progress Bar*/
 /*end of About Page*/
