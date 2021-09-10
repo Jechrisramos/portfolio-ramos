@@ -68,11 +68,11 @@
 	}
 
 	img#hero-object{
-		width: 451px;
+		width: 521px;
 		height: auto;
 		object-fit: contain;
 		top: 0;
-		left: 0;
+		left: 47px;
 	}
 
 	ul#soc-meds {
@@ -167,7 +167,8 @@
 	}
 
 	img#hero-object{
-		width: 485px;
+		width: 563px;
+		left: 15px;
 		top: 1px;
 	}
 	/*end of Home Pages*/
@@ -433,7 +434,7 @@
 		float: none;
 		top: auto;
 		left: auto;
-		width: 304px;
+		width: 380px;
 		height: auto;
 		object-fit: contain;
 		display: block;
@@ -776,7 +777,7 @@
 		float: none;
 		top: 0;
 		left: auto;
-		width: 150px;
+		width: 185px;
 		height: auto;
 		object-fit: contain;
 		display: block;
