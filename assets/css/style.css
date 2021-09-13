@@ -573,6 +573,8 @@ a#hero-cta:hover{
 
 ul#soc-meds {
     margin-right: 25px;
+	position: relative;
+	z-index: 5;
 }
 
 ul#soc-meds > li > a {
