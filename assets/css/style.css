@@ -525,7 +525,7 @@ h1#hero-heading span.primary-heading {
 }
 
 h1#hero-heading span.secondary-heading{
-	font-size: 110px;
+	font-size: 85px;
 	font-weight: 600;
 	line-height: 100px;
 	margin-left: -5px;
@@ -538,14 +538,9 @@ p#hero-description {
 	margin-bottom: 20px;
 }
 
-div#cta-row {
-	/*width: 83.75vh;*/
-	margin: 10px 0 25px 0;
-}
+div#cta-row { margin: 10px 0 25px 0; }
 
-div#cta-row > div.col-lg-6{
-	padding: 0;
-}
+div#cta-row > div.col-lg-6 { padding: 0; }
 
 a#hero-cta	{
 	background-color: transparent;
