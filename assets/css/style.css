@@ -519,23 +519,25 @@ h1#hero-heading span{
 
 h1#hero-heading span.primary-heading {
 	margin-top: 15px;
-	font-size: 43px;
-	line-height: 37px;
-	padding-bottom: 10px;
+    font-size: 35px;
+    line-height: 40px;
+    padding-bottom: 15px;
 }
 
 h1#hero-heading span.secondary-heading{
-	font-size: 85px;
-	font-weight: 600;
-	line-height: 100px;
-	margin-left: -5px;
-	margin-bottom: 15px;
+	font-size: 60px;
+    font-weight: 600;
+    line-height: 65px;
+    margin-left: -5px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 p#hero-description {
 	color: var(--light);
-	font-size: 20px;
-	margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 30px;
 }
 
 div#cta-row { margin: 10px 0 25px 0; }
