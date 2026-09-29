@@ -586,13 +586,9 @@ ul#soc-meds > li > a:hover {
 /*end of Home Page*/
 
 /*About Page*/
-main#first-content-row{
-	padding-top: 40px;
-}
+main#first-content-row{ padding-top: 40px; }
 
-main#last-content-row{
-	padding-bottom: 30px;
-}
+main#last-content-row{ padding-bottom: 30px; }
 
 main.h1-row-content,
 main.dim-white-bg-content {
@@ -624,9 +620,7 @@ img.avatar {
     width: 410px;
 }
 
-p#skills-tools-description {
-	padding-bottom: 25px;
-}
+p#skills-tools-description { padding-bottom: 25px; }
 
 p#skills-tools-description, 
 div.tools-group{
@@ -637,13 +631,9 @@ div.tools-group{
 }
 
 /*Progress Bar*/
-section.progress-group {
-	padding: 0 20px;
-}
+section.progress-group { padding: 0 20px; }
 
-div.progress-section{
-	padding-bottom: 10px;
-}
+div.progress-section{ padding-bottom: 10px; }
 
 p.progress-label {
 	font-family: var(--heading-font);
