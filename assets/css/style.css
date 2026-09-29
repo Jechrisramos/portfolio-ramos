@@ -504,11 +504,10 @@ div#hero-headline{
 	position: relative;
 }
 
-img#hero-object{
+img#hero-object {
 	float: right;
 	position: relative;
     left: 40px;
-    margin-top: 6%;
 }
 
 h1#hero-heading span{
